@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inquiry Form</title>
+</head>
+<body>
+
+    <h1 style="text-align:center;">Freelance Client Inquiry Form</h1>
+    <hr>
+
+    <form action="/submit" method="post">
+
+        <h3>Personal Information</h3>
+
+        <label>Name</label><br>
+        <input type="text" name="name" placeholder="Your Name" required><br><br>
+
+        <label>Email</label><br>
+        <input type="email" name="email" placeholder="Your Email" required><br><br>
+
+        <label>Phone Number</label><br>
+        <input type="tel" name="phoneno" placeholder="Your Phone Number"><br><br>
+
+        <label>Country</label><br>
+        <select name="country">
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Australia</option>
+            <option>Other</option>
+        </select>
+
+        <h3>Project Details</h3>
+
+        <label>Project Title</label><br>
+        <input type="text" name="title" placeholder="Project Title"><br><br>
+
+        <label>Project Type</label><br>
+        <select name="type">
+            <option>Logo Design</option>
+            <option>Web Development</option>
+            <option>Content Writing</option>
+            <option>Digital Marketing</option>
+            <option>UI-UX Design</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label>Project Description</label><br>
+        <textarea name="description" rows="5" placeholder="Describe your project in detail..."></textarea><br><br>
+
+        <label>Budget Range</label><br>
+        <select name="budget">
+            <option>INR 1000 - 5000</option>
+            <option>INR 5000 - 10000</option>
+            <option>INR 10000 - 20000</option>
+            <option>INR 20000 - 50000</option>
+            <option>INR 50000+</option>
+        </select><br><br>
+
+        <label>Timeline</label><br>
+        <select name="timeline">
+            <option>1-2 weeks</option>
+            <option>3-4 weeks</option>
+            <option>1-2 months</option>
+            <option>3-6 months</option>
+            <option>6+ months</option>
+        </select><br><br>
+
+        <button type="submit">Submit Inquiry</button>
+
+    </form>
+
+    <hr>
+    <footer>
+        <h3>Freelancer's Information</h3>
+        <a href="portfolio.html">View my portfolio</a>
+        <p>© 2026 Freelance Services. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
